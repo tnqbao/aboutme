@@ -68,7 +68,7 @@ export function EducationSection() {
                 <div className="flex-1">
                   <div className="flex items-center justify-between">
                     <CardTitle className="text-white">Duy Tan University</CardTitle>
-                    <Badge className="bg-gradient-to-r from-purple-600 to-cyan-600 text-white">5/2024 - Present</Badge>
+                    <Badge className="bg-gradient-to-r from-purple-600 to-cyan-600 text-white">9/2022 - Present</Badge>
                   </div>
                   <CardDescription className="text-gray-400">Software Engineering of Majoring (CMU)</CardDescription>
                 </div>
