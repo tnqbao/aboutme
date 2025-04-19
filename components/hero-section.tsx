@@ -27,7 +27,7 @@ export function HeroSection() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-cyan-500 rounded-full blur-xl opacity-30"></div>
               <img
-                  src="/placeholder.svg?height=150&width=150"
+                  src="https://i.imgur.com/O5lFgNz.jpeg?height=150&width=150"
                   alt="Tran Nguyen Quoc Bao"
                   width={150}
                   height={150}

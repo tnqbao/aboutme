@@ -75,12 +75,12 @@ export function ProjectTabs() {
             </div>
             <div className="mt-4 grid grid-cols-2 gap-2">
               <div className="bg-gray-900/50 p-3 rounded-md">
-                <div className="text-xs text-gray-400">Monthly Users</div>
-                <div className="text-xl font-bold text-white">10,000+</div>
+                <div className="text-xs text-gray-400">Total Users</div>
+                <div className="text-xl font-bold text-white">8,000+</div>
               </div>
               <div className="bg-gray-900/50 p-3 rounded-md">
                 <div className="text-xs text-gray-400">Content Library</div>
-                <div className="text-xl font-bold text-white">500+ titles</div>
+                <div className="text-xl font-bold text-white">29000+ </div>
               </div>
             </div>
           </div>
@@ -104,7 +104,7 @@ export function ProjectTabs() {
             </p>
             <div className="flex flex-wrap gap-4 mb-2">
               <Link
-                  href="https://github.com/tnqbao/gau_truyen"
+                  href="https://github.com/tnqbao/gautruyen-platform"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center text-sm text-purple-400 hover:text-purple-300 transition-colors"
@@ -122,7 +122,7 @@ export function ProjectTabs() {
                 Live Demo
               </Link>
               <Link
-                  href="https://nzs2rc26yh.apidog.io/"
+                  href="https://icsoid047o.apidog.io/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center text-sm text-green-400 hover:text-green-300 transition-colors"
@@ -133,8 +133,8 @@ export function ProjectTabs() {
             </div>
             <div className="mt-4 grid grid-cols-2 gap-2">
               <div className="bg-gray-900/50 p-3 rounded-md">
-                <div className="text-xs text-gray-400">Monthly Readers</div>
-                <div className="text-xl font-bold text-white">8,500+</div>
+                <div className="text-xs text-gray-400">Total Readers</div>
+                <div className="text-xl font-bold text-white">5,500+</div>
               </div>
               <div className="bg-gray-900/50 p-3 rounded-md">
                 <div className="text-xs text-gray-400">Comic Titles</div>

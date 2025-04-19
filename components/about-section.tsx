@@ -56,8 +56,8 @@ export function AboutSection() {
             <div className="space-y-6">
               <ParallaxSection offset={15}>
                 <motion.p className="text-gray-400 text-lg leading-relaxed" variants={item}>
-                  I'm a Fullstack/DevOps Developer with{" "}
-                  <span className="text-purple-400 font-semibold">6 months of professional experience</span> in building
+                  Iam a Fullstack Developer with{" "}
+                  <span className="text-purple-400 font-semibold">3 months of professional experience</span> in building
                   microservices architecture and developing web applications. I'm passionate about creating robust,
                   scalable solutions that deliver exceptional user experiences.
                 </motion.p>
@@ -108,7 +108,7 @@ export function AboutSection() {
                   variant="outline"
                   className="bg-transparent border-purple-500 text-purple-400 hover:bg-purple-500/10 transition-all duration-300 hover:scale-105"
                 >
-                  <Link href="https://driver.daudoo.com/Tran_Nguyen_Quoc_Bao_FullstackDevops_CV.pdf" download>
+                  <Link href="https://driver.daudoo.com/Tran_Nguyen_Quoc_Bao_Fullstack_Devops_CV.pdf" download>
                     <Download className="mr-2 h-4 w-4" />
                     Download CV
                   </Link>
