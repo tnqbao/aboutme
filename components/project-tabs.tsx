@@ -29,15 +29,19 @@ export function ProjectTabs() {
         </TabsList>
         <TabsContent value="gauphim" className="space-y-4 mt-4">
           <div className="rounded-lg border border-gray-700 p-4 bg-gray-800/30">
-            <div className="aspect-video w-full overflow-hidden rounded-md mb-4 bg-gray-950 relative">
-              <iframe
-                  src="https://gauphim.daudoo.com"
-                  title="Gau Phim Website"
-                  className="w-full h-full absolute inset-0 border-0"
-                  loading="lazy"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-              ></iframe>
+            {/* Increased width and height for better display */}
+            <div className="w-full overflow-hidden rounded-md mb-4 bg-gray-950 relative">
+              <div className="w-full">
+                <iframe
+                    src="https://gauphim.daudoo.com"
+                    title="Gau Phim Website"
+                    className="w-full h-[400px] sm:h-[450px] md:h-[500px] border-0"
+                    loading="lazy"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    style={{ minWidth: "100%", maxWidth: "100vw" }}
+                ></iframe>
+              </div>
             </div>
             <h4 className="mb-2 font-medium text-white text-lg">Gau Phim Platform</h4>
             <p className="text-gray-300 mb-4">
@@ -75,27 +79,30 @@ export function ProjectTabs() {
             </div>
             <div className="mt-4 grid grid-cols-2 gap-2">
               <div className="bg-gray-900/50 p-3 rounded-md">
-                <div className="text-xs text-gray-400">Total Users</div>
-                <div className="text-xl font-bold text-white">8,000+</div>
+                <div className="text-xs text-gray-400">Total Metrics</div>
+                <div className="text-xl font-bold text-white">10,000+</div>
               </div>
               <div className="bg-gray-900/50 p-3 rounded-md">
                 <div className="text-xs text-gray-400">Content Library</div>
-                <div className="text-xl font-bold text-white">29000+ </div>
+                <div className="text-xl font-bold text-white">29000+ titles</div>
               </div>
             </div>
           </div>
         </TabsContent>
         <TabsContent value="gautruyen" className="space-y-4 mt-4">
           <div className="rounded-lg border border-gray-700 p-4 bg-gray-800/30">
-            <div className="aspect-video w-full overflow-hidden rounded-md mb-4 bg-gray-950 relative">
-              <iframe
-                  src="https://gautruyen.daudoo.com"
-                  title="Gau Truyen Website"
-                  className="w-full h-full absolute inset-0 border-0"
-                  loading="lazy"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-              ></iframe>
+            <div className="w-full overflow-hidden rounded-md mb-4 bg-gray-950 relative">
+              <div className="w-full">
+                <iframe
+                    src="https://gautruyen.daudoo.com"
+                    title="Gau Truyen Website"
+                    className="w-full h-[400px] sm:h-[450px] md:h-[500px] border-0"
+                    loading="lazy"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    style={{ minWidth: "100%", maxWidth: "100vw" }}
+                ></iframe>
+              </div>
             </div>
             <h4 className="mb-2 font-medium text-white text-lg">Gau Truyen Platform</h4>
             <p className="text-gray-300 mb-4">
@@ -133,8 +140,8 @@ export function ProjectTabs() {
             </div>
             <div className="mt-4 grid grid-cols-2 gap-2">
               <div className="bg-gray-900/50 p-3 rounded-md">
-                <div className="text-xs text-gray-400">Total Readers</div>
-                <div className="text-xl font-bold text-white">5,500+</div>
+                <div className="text-xs text-gray-400">Total Metrics</div>
+                <div className="text-xl font-bold text-white">3,500+</div>
               </div>
               <div className="bg-gray-900/50 p-3 rounded-md">
                 <div className="text-xs text-gray-400">Comic Titles</div>
